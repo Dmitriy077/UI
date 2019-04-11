@@ -1,0 +1,35 @@
+.standart_buttons_container {
+	
+}
+
+.standart_buttons_caption {
+	text-align: center;
+	height: 319px;
+}
+
+.standart_buttons_caption h1 {
+	padding-top: 151px;
+}
+
+.small_button {
+	border: 2px solid #4DB6A7;
+	border-radius: 5px;
+	padding: 11px 27px 7px 27px; 
+	display: inline-block;
+	border-bottom: 5px solid #27A18F;
+	color: #4DB6A7;
+	font-size: 17px;
+}
+
+
+.small_button:hover {
+	background-color: #4DB6A7;
+	cursor: pointer;
+	color: white;
+	border-bottom: 3px solid #27A18F;
+}
+
+.small_button:active {
+	border-bottom: 2px solid #4DB6A7;
+	transition-timing-function: border-bottom 0s, 2s;
+}
