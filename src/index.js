@@ -1,3 +1,5 @@
+require('webpack-icons-installer/font-awesome');
+
 import "./style.scss"
 import "./fonts/fonts.scss"
 import "./standart_buttons/standart_buttons.scss"
@@ -5,7 +7,9 @@ import "./standart_buttons/ripple.scss"
 import "../node_modules/jquery/dist/jquery.min.js"
 import "./standart_buttons/buttons.scss"
 import "./arrow_buttons/arrow_buttons.scss"
-require('webpack-icons-installer/font-awesome');
+import "./percentages/percentages.scss"
+import "./js plugin/jquery.easypiechart.js"
+
 
 
 $(".button").click(function (e) {
@@ -43,3 +47,15 @@ $(".button").click(function (e) {
     left: x + 'px'
   }).addClass("rippleEffect");
 });
+
+$(function() {
+        $('.chart').easyPieChart({
+            size: 160,
+            barColor: 'red',
+            scaleColor: false,
+            lineWidth: 8,
+            trackColor: 'white',
+            lineCap: 'circle',
+            animate: 1000, //animation duration
+        });
+    });
