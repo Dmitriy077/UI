@@ -21,7 +21,8 @@ module.exports = {
 					{
 						loader: MiniCssExtractPlugin.loader
 					},
-	                "css-loader"
+	                "css-loader",
+	                "style-loader"
 				]
 			},
 			{
@@ -63,8 +64,9 @@ module.exports = {
 			    test: /\.(eot|svg|ttf|woff|woff2)$/,
 			    use: [
 		           {
-		                loader: 'file-loader',
+		                loader: 'url-loader',
 		                options:{
+		                	limit: 8192,
 		                	name: '[name].[ext]',
 		               		outputPath: './fonts',
 		               		useRelativePath: true

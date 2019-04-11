@@ -1,0 +1,73 @@
+.arrow_buttons_caption {
+	text-align: center;
+	height: 202px;
+}
+
+.arrow_buttons_caption h1 {
+	padding-top: 103px;
+}
+
+.arrow_buttons_buttons {
+	text-align: center;
+}
+
+.margin-left_50 {
+	margin-left: 50px;
+}
+
+
+
+/*arrow buttons:*/
+
+.prev,
+.next {
+	width: 80px;
+	height: 80px;
+	border: 5px solid #4DB6A7;
+	border-radius: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.prev:hover i,
+.next:hover i,
+.prev:hover,
+.next:hover {
+	background-color: #4DB6A7;
+	color: white;
+}
+.prev .icon {
+	margin-top: 2px;
+	margin-left: -3px;
+	text-align: auto;
+}
+
+.next .icon {
+	margin-top: 2px;
+	margin-left: 10px;
+	text-align: auto;
+}
+
+.icon i {
+	color: #4DB6A7;
+	font-size: 72px;
+}
+
+.button_condition_disabled i {
+	color: white;
+}
+
+.button_condition_disabled.prev,
+.button_condition_disabled.next,
+.button_condition_disabled.prev:hover,
+.button_condition_disabled.next:hover {
+	background-color: #E4E4E4;
+	border: 5px solid #E4E4E4;
+}
+
+.button_condition_disabled.prev:hover i,
+.button_condition_disabled.next:hover i, 
+.button_condition_disabled.prev:hover,
+.button_condition_disabled.next:hover {
+	background-color: #E4E4E4;	
+}
