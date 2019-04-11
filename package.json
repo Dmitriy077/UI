@@ -7,6 +7,7 @@
     "webpack": "webpack",
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
+    "prod": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
