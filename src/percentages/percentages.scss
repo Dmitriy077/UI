@@ -7,7 +7,23 @@
 	padding-top: 88px;
 }
 
+.box {
+	display: inline-block;
+}
+
 .box .chart {
-	width: 150px;
-	height: 150px;
+	font-size: 70px;
+	font-family: 'Conv_Lato-Light';
+	position: relative;
+	text-align: center;
+	width: 172px;
+	height: 172px;
+	line-height: 180px;
+}
+
+.box .chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+
 }
