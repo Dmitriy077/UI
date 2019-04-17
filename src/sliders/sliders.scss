@@ -1,0 +1,151 @@
+.sliders_caption {
+	text-align: center;
+	height: 188px;
+}
+
+.sliders_caption h1 {
+	padding-top: 67px;
+}
+
+.sliders_left,
+.sliders_right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sliders_content {
+	text-align: center;
+}
+
+.sliders_content .ruler {
+	font-family: 'Conv_Lato-Regular';
+	color: #CDCDCD;
+	font-size: 19px;
+	margin-left: 87px;
+	line-height: 63px;
+}
+
+.sliders_content .ruler:nth-child(2) {
+	margin-left: 0;
+}
+
+     /*SLIDER:*/
+
+/* Ширина слайдера */
+#slider_left,
+#slider_right {
+	width: 470px;
+	position: relative;
+}
+
+#slider_left_content {
+	position: absolute;
+	top: -72px;
+	margin-left: -18px;
+	width: 64px;
+	height: 44px;
+	background-color: #E65635;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+	border-radius: 10px;
+	font-family: 'Conv_Lato-Black';
+}
+
+#slider_left_content::before {
+	content: '';
+	width: 0;
+	margin: 0 auto;
+	border: 18px solid transparent;
+	border-top-color: #E65635;
+	position: absolute;
+	top: 32px;
+	left: 14px;
+}
+
+#slider_right_content {
+	display: none;
+}
+/* Контейнер слайдера */
+#slider_left .ui-slider,
+#slider_right .ui-slider {
+	position: relative;
+}
+/* Ползунок */
+.sliders_left .ui-slider-handle {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50px !important;
+    background-color: #E65635;
+    top: -14px !important;
+}
+
+.sliders_right .ui-slider-handle {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50px !important;
+    background-color: #4DB6A7;
+    top: -14px !important;
+}
+
+.ui-slider .ui-slider-handle:active,
+.ui-slider .ui-slider-handle:focus,
+.ui-slider .ui-slider-handle:hover {
+	border: 0px solid red !important;
+	outline: none !important;
+}
+.sliders_left .ui-slider .ui-slider-range,
+.sliders_right .ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	overflow: hidden;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.sliders_left .ui-slider-horizontal,
+.sliders_right .ui-slider-horizontal {
+	 height: 9px; /* задаем высоту согласно дизайна */
+	 background-color: #E4E4E4 !important;
+
+}
+/* позиционируем ползунки */
+.sliders_left .ui-slider-horizontal .ui-slider-handle,
+.sliders_right .ui-slider-horizontal .ui-slider-handle { 
+	top: -5px;
+	margin-left: -6px;
+}
+.sliders_left .ui-slider-horizontal .ui-slider-range,
+.sliders_right .ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.sliders_left .ui-slider-horizontal .ui-slider-range-min,
+.sliders_right .ui-slider-horizontal .ui-slider-range-min { 
+	left: 0;
+}
+.sliders_left .ui-slider-horizontal .ui-slider-range-max,
+.sliders_right .ui-slider-horizontal .ui-slider-range-max{
+	right: 0;
+}
+/* оформление полосы по которой ходит ползунок */
+.sliders_left .ui-widget-content,
+.sliders_right .ui-widget-content { 
+	border: 0px solid #D4D4D4 !important;
+	background: #fff;
+}
+/* оформление активного участка (между двумя ползунками) */
+.sliders_left .ui-widget-header,
+.sliders_right .ui-widget-header { 
+	border: 1px solid #D4D4D4;
+	background: #4DB6A7;
+}
+/* скругление для полосы слайдера */
+.sliders_left .ui-corner-all,
+.sliders_right .ui-corner-all {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}

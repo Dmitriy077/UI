@@ -1,0 +1,22 @@
+.form_elements_container
+	.form_elements_caption
+		h1 FORM ELEMENTS
+	.form_elements_content
+		.form_elements_content_left
+			form.message_form
+				input.message_form_name(type="text", name="name", placeholder="Your Name")
+				.message_form_error_name ERROR
+				.message_form_error_email ERROR
+				input.message_form_email.margin-top_23(type="text", name="email", placeholder="Your Email")
+				.message_form_thanks_name THANKS!
+				.message_form_thanks_email THANKS!
+				textarea.message_form_text.margin-top_23(cols="30", rows="10", type="text", name="text", placeholder="Your Message")
+				.button.big_button.button_style_green.form_elements_button_position.form_elements_button
+					span SUBMIT
+		.form_elements_content_right
+			.toggles
+				h1 TOGGLES
+				.toggles_status_off.toggles_status_off_position
+					span OFF
+				.toggles_status_on.toggles_status_on_position
+					span ON

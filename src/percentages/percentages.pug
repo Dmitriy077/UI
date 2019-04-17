@@ -1,13 +1,14 @@
 .percentages_container
 	.percentages_caption
 		h1 PERCENTAGES / PIE CHART
-	.box
-		.chart(data-percent="0") 0
-	.box
-		.chart(data-percent="38") 38
-	.box
-		.chart(data-percent="62") 62
-	.box
-		.chart(data-percent="89") 89
-	.box 
-		canvas#popChart(width="172", height="172") 
+	.percentages_chart
+		.box.box_position
+			.chart(data-percent="0") 0
+		.box.box_position
+			.chart(data-percent="38") 38
+		.box.box_position
+			.chart(data-percent="62") 62
+		.box.box_position
+			.chart(data-percent="89") 89
+		.box.box_position 
+			canvas#popChart(width='182', height='182')

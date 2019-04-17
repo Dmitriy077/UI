@@ -11,6 +11,25 @@
 	display: inline-block;
 }
 
+.box_position {
+	margin-left: 50px;
+	vertical-align: top;
+}
+
+.box_position:nth-child(1) {
+	margin-left: -10px;
+}
+
+.box_position:last-child {
+	margin-top: -10px;
+}
+
+.percentages_chart {
+	text-align: center;
+}
+
+
+
 .box .chart {
 	font-size: 70px;
 	font-family: 'Conv_Lato-Light';
