@@ -7,6 +7,9 @@
 	padding-top: 107px;
 }
 
+
+/*form*/
+
 .form_elements_content_left {
 	display: inline-block;
 	margin-left: 97px;
@@ -159,6 +162,9 @@
 	left: -24px;
 }
 
+
+/*toggles*/
+
 .toggles_status_on {
 	width: 108px;
 	height: 44px;
@@ -214,9 +220,78 @@
 	margin-left: 44px;
 }
 
-.toggles_status_off_position {
+.toggles_status_off_position_left {
 	margin-top: 54px;
 }
-.toggles_status_on_position {
+
+.toggles_status_off_position_right {
 	margin-left: 20px;
+	display: none;
+}
+
+.toggles_status_on_position_right {
+	margin-left: 20px;
+}
+
+.toggles_status_on_position_left {
+	margin-top: 54px;
+	display: none;
+}
+
+
+/*tick boxes*/
+
+.tick_boxes h1 {
+	margin-top: 71px;
+	margin-left: 14px;
+}
+
+.tick_status_on {
+	width: 42px;
+	height: 42px;
+	border-radius: 50px;
+	background-color: #4DB6A7;
+	text-align: center;
+	display: inline-block;
+}
+
+.tick_status_on i {
+	color: white;
+	font-size: 27px;
+	line-height: 42px;
+}
+
+.tick_status_off {
+	width: 42px;
+	height: 42px;
+	border-radius: 50px;
+	background-color: #E4E4E4;
+	text-align: center;
+	display: inline-block;
+}
+
+.tick_status_off i {
+	color: #BBBBBB;
+	font-size: 27px;
+	line-height: 42px;
+}
+
+.tick_status_on_position_left {
+	margin-left: 55px;
+	margin-top: 55px;
+}
+
+.tick_status_off_position_left {
+	margin-left: 55px;
+	margin-top: 55px;
+	display: none;
+}
+
+.tick_status_off_position_right {
+	margin-left: 25px;
+}
+
+.tick_status_on_position_right {
+	margin-left: 25px;
+	display: none;
 }
