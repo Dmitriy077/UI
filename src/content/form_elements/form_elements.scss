@@ -12,7 +12,6 @@
 
 .form_elements_content_left {
 	display: inline-block;
-	margin-left: 97px;
 }
 
 .form_elements_content_right {
@@ -177,6 +176,8 @@
 	font-size: 22px;
 	line-height: 45px;
 	position: relative;
+	cursor: pointer;
+	transition: all 1s;
 }
 
 .toggles_status_on::after {
@@ -202,6 +203,8 @@
 	font-size: 22px;
 	line-height: 45px;
 	position: relative;
+	cursor: pointer;
+	transition: all 1s;
 }
 
 .toggles_status_off::after {
@@ -226,7 +229,6 @@
 
 .toggles_status_off_position_right {
 	margin-left: 20px;
-	display: none;
 }
 
 .toggles_status_on_position_right {
@@ -235,7 +237,6 @@
 
 .toggles_status_on_position_left {
 	margin-top: 54px;
-	display: none;
 }
 
 
@@ -253,6 +254,7 @@
 	background-color: #4DB6A7;
 	text-align: center;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .tick_status_on i {
@@ -268,6 +270,7 @@
 	background-color: #E4E4E4;
 	text-align: center;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .tick_status_off i {
