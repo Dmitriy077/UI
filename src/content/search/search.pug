@@ -1,4 +1,19 @@
-.search_container
-	.search_left
+.search-user_container
+	.search-user_left
 		.search_caption
 			h1 SEARCH / DROP DOWN
+		.search_content
+			input#search(type="search", placeholder="Search")
+			span.search_loupe
+				i.i_search_loupe.fa.fa-search
+			input.search_error.margin-top_31(type="text", value="I've not found what I'm looking for...")
+			span.search_loupe_error
+				i.i_search_loupe_error.fa.fa-search
+			span.dropdown
+				i.i_dropdown.fa.fa-angle-down
+			ul.searc_select.twittyMenu(title="Choose An Option")
+				li This is option 1
+				li This is option 2
+				li This is option 3
+				li This is option 4
+				li This is option 5	
