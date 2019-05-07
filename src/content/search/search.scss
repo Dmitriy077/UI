@@ -15,7 +15,7 @@
 	margin-left: -25px;
 }
 
-#search {
+.search {
 	width: 527px;
 	height: 50px;
 	box-sizing: border-box;
@@ -34,7 +34,8 @@ i.i_search_loupe {
 	width: 60px;
 	height: 50px;
 	position: absolute;
-	right: 0px;
+	right: -530px;
+    top: -50px;
 	background-color: #E65635;
 	border-radius: 0 5px 5px 0;
 	box-sizing: border-box;
@@ -49,7 +50,7 @@ i.i_search_loupe_error {
 	width: 60px;
 	height: 50px;
 	position: absolute;
-	top: -19px;
+	top: -32px;
 	right: 0px;
 	background-color: #E65635;
 	border-radius: 0 5px 5px 0;
@@ -90,6 +91,10 @@ i.i_dropdown {
     position: relative;
     color: white;
     display: none;
+}
+
+.search_loupe_error {
+	display: none;
 }
 
 .search_animation {
@@ -160,4 +165,7 @@ ul.twittyMenu.open {
 }
 .twittyButton.clicked {
 	border-radius: 5px 5px 0 0;
+}
+.highlight {
+    background: #4CFF00;
 }

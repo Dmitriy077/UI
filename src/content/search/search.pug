@@ -3,12 +3,22 @@
 		.search_caption
 			h1 SEARCH / DROP DOWN
 		.search_content
-			input#search(type="search", placeholder="Search")
-			span.search_loupe
-				i.i_search_loupe.fa.fa-search
-			input.search_error.margin-top_31(type="text", value="I've not found what I'm looking for...")
-			span.search_loupe_error
-				i.i_search_loupe_error.fa.fa-search
+			form#search-highlight(action="#", method="post")
+				input#term.search(type="text", name="term", placeholder="Search")
+				.search-button
+					span.search_loupe
+						i.i_search_loupe.fa.fa-search
+				input.search_error.margin-top_31(type="text", value="I've not found what I'm looking for...")
+				span.search_loupe_error
+					i.i_search_loupe_error.fa.fa-search
+			p.results
+			//- form
+			//- 	input#search(type="search", placeholder="Search")
+			//- 	span.search_loupe
+			//- 		i.i_search_loupe.fa.fa-search
+			//- 	input.search_error.margin-top_31(type="text", value="I've not found what I'm looking for...")
+			//- 	span.search_loupe_error
+			//- 		i.i_search_loupe_error.fa.fa-search
 			span.dropdown
 				i.i_dropdown.fa.fa-angle-down
 			ul.searc_select.twittyMenu(title="Choose An Option")

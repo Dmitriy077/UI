@@ -1,7 +1,7 @@
-require('webpack-icons-installer/font-awesome');
 
 import "./style.scss"
 import "./fonts/fonts.scss"
+import "./fonts/font-awesome/scss/font-awesome.scss"
 import "./content/standart_buttons/standart_buttons.scss"
 import "./plugins/ripple/ripple.scss"
 import "./plugins/ripple/ripple.js"
@@ -22,3 +22,4 @@ import "./content/form_elements/form_elements.scss"
 import "./content/form_elements/form_elements.js"
 import "./content/search/search.scss"
 import "./content/search/search.js"
+import "./plugins/highlight/highlight.js"
