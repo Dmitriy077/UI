@@ -1,7 +1,8 @@
 .search-user_left,
 .search-user_right {
-	width: 50%;
+	width: 49%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .search_caption {
@@ -10,7 +11,7 @@
 }
 
 .search_caption h1 {
-	padding-top: 122px;
+	margin-top: 122px;
 	letter-spacing: 1.9px;
 	margin-left: -25px;
 }
@@ -61,12 +62,12 @@ i.i_search_loupe_error {
 	line-height: 48px;
 }
 
-i.i_dropdown {
+.dropdown-toggle .dropdown-icon {
 	width: 60px;
 	height: 50px;
 	position: absolute;
-	top: 64px;
-	right: 0px;
+	top: 0;
+	right: -3px;
 	background-color: #4DB6A7;
 	border-radius: 0 5px 5px 0;
 	box-sizing: border-box;
@@ -107,24 +108,12 @@ i.i_dropdown {
 	position: relative;
 	cursor: pointer;
 }
-
-.twittyButton {
-	width: 527px;
-	height: 50px;
-	box-sizing: border-box;
-	padding-left: 22px;
-	font-size: 24px;
-	font-family: 'Conv_Lato-Regular';
-    letter-spacing: 0.7px;
-    outline: none;
-    background-color: #E4E4E4;
-    border-radius: 5px;
-    border: 0px solid black;
-    color: #828282;
-    padding-top: 12px;
-    margin-top: 33px;
+.dropdown-link .dropdown-text {
+	background-color: #4DB6A7;
+	color: white;
 }
-ul.searc_select li {
+.dropdown-text,
+.dropdown-title  {
 	width: 527px;
 	height: 50px;
 	box-sizing: border-box;
@@ -134,38 +123,58 @@ ul.searc_select li {
 	font-family: 'Conv_Lato-Regular';
     letter-spacing: 0.7px;
     outline: none;
+    background-color: #E4E4E4;
+    border: 0px solid black;
+    position: relative;
+    color: gray;
+}
+li.dropdown-item a {
+	color: white;
+	font-size: 24px;
+	padding-left: 22px;
+}
+li.dropdown-item {
+	width: 527px;
+	height: 50px;
+	box-sizing: border-box;
+	font-family: 'Conv_Lato-Regular';
+    letter-spacing: 0.7px;
+    outline: none;
     background-color: #4DB6A7;
     border: 0px solid black;
     position: relative;
     color: white;
 }
-
-ul.searc_select li:hover {
+.dropdown {
+	margin-top: 30px;
+}
+li.dropdown-item:hover,
+li.dropdown-item:hover .dropdown-link .dropdown-text,
+li.dropdown-item:hover .dropdown-link a,
+li.dropdown-item:hover .dropdown-link {
 	background-color: #E4E4E4;
 	color: #828282;
 }
-
-ul.searc_select li:last-child {
-	border-radius: 0 0 5px 5px;
-}
-
-ul,
-li {
-	list-style: none;
+.dropdown-header {
 	padding: 0;
-	margin: 0;
+	border-bottom: 0px;
 }
-
-ul.twittyMenu {
-	display: none;
-}
-
-ul.twittyMenu.open {
-	display: block;
-}
-.twittyButton.clicked {
-	border-radius: 5px 5px 0 0;
+.dropdown-header .dropdown-icon {
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	top: 0px;
+	color: gray;
+	font-size: 0;
+	padding: 21px;
 }
 .highlight {
     background: #4CFF00;
+}
+
+
+
+.user_caption h1 {
+	margin-top: 122px;
+	margin-left: 100px;
 }
