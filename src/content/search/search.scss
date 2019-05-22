@@ -1,12 +1,18 @@
-.search-user_left,
+.search-user_left {
+	width: 532px;
+	display: inline-block;
+	vertical-align: top;
+}
 .search-user_right {
-	width: 49%;
 	display: inline-block;
 	vertical-align: top;
 }
 
+
+/*left*/
+
 .search_caption {
-	height: 195px;
+	height: 74px;
 	text-align: center;
 }
 
@@ -174,7 +180,98 @@ li.dropdown-item:hover .dropdown-link {
 
 
 
+/*right*/
+
 .user_caption h1 {
 	margin-top: 122px;
-	margin-left: 100px;
+	margin-left: 160px;
+}
+.user_boy_container {
+	margin-left: 57px;
+	margin-top: 51px;
+}
+.user_circle {
+	width: 155px;
+	height: 155px;
+	border-radius: 300px;
+	border: 7px solid #E4E4E4;
+}
+.user_img img {
+	width: 100%;
+	border-radius: 300px;
+}
+.user_info {
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 23px;
+	background-color: #E4E4E4;
+	box-sizing: border-box;
+	width: 298px;
+	border-radius: 15px;
+	position: relative;
+}
+.user_info::before {
+	content: '';
+	position: absolute;
+	border: 18px solid transparent;
+	border-right-color: #E4E4E4;
+	top: 64px;
+	left: -29px;
+}
+.user_info_social li {
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 28px;
+	vertical-align: top;
+}
+.user_info_social li:nth-child(2) {
+	margin-top: 13px;
+}
+.user_info_social i {
+	font-size: 44px;
+	color: #737373;
+}
+.user_info_social li:first-child {
+	margin-left: 0;
+}
+.user_info_social .fa-twitter {
+	font-size: 54px;
+}
+.user_info_social li:hover i {
+	color: #E65635;
+}
+.user_img,
+.user_info_container {
+	display: inline-block;
+	vertical-align: top;
+}
+.user_info_container {
+	margin-left: 15px;
+	margin-top: 3px;
+}
+.user_info_name {
+	font-size: 32px;
+	color: #E65635;
+	font-family: 'Conv_Lato-Regular';
+	letter-spacing: 0px;
+}
+.user_info_specialty {
+	margin-top: 3px;
+	font-size: 19px;
+	color: #737373;
+}
+.user_girl_container {
+	margin-left: 57px;
+	margin-top: 41px;
+}
+.user_girl .user_info {
+	background-color: #4DB6A7;
+}
+.user_girl i,
+.user_girl .user_info_name,
+.user_girl .user_info_specialty {
+	color: white;
+}
+.user_girl .user_info::before {
+	border-right-color: #4DB6A7; 
 }

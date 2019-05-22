@@ -1,15 +1,26 @@
 body {
 	margin: 0;
 	font-family: 'Conv_Lato-Black';
-	letter-spacing: 1.9px;
+	letter-spacing: 2px;
+	box-sizing: border-box;
 }
 
 h1 {
 	margin: 0;
 	padding: 0;
-	letter-spacing: 3px;
+	color: #3D3D3D;
+	word-spacing: 8px;
 }
-
+ul,
+li {
+    outline: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid black;
+    resize: none;
+}
 .container {
 	width: 100%;
 }
@@ -26,6 +37,9 @@ i.fa{
 }
 .margin-left_120 {
 	margin-left: 120px;
+}
+.margin-left_21 {
+	margin-left: 21px;
 }
 
 .margin-top_23 {

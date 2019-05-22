@@ -84,7 +84,7 @@ jQuery(function($){
 
 $(function() {
 
-	$('select, ul').dropdown({
+	$('.searc_select').dropdown({
 		toggleText: 'Choose An Option',
 		// followLinks: false
 	});
