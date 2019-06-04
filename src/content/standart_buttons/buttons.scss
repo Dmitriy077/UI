@@ -15,8 +15,8 @@ input {
 }
 .button {
 	border-radius: 5px;
-	display: inline-block;
 	position: relative;
+	display: inline-block;
 }
 
 .button:hover {
@@ -38,6 +38,7 @@ input {
 	border: 2px solid #4DB6A7;
 	color: #4DB6A7;
 	border-bottom: 5px solid #27A18F;
+	background-color: white;
 }
 
 .button_style_green:hover {
@@ -50,6 +51,7 @@ input {
 
 .button_style_green:active {
 	border-bottom: 2px solid #4DB6A7;
+	top: 3px;
 }
 
 .button_style_red {
@@ -64,4 +66,5 @@ input {
 
 .button_style_red:active {
 	border-bottom: 2px solid #E65635;
+	top: 3px;
 }
