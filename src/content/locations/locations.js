@@ -1,17 +1,3 @@
-// $(document).ready(function(){
-	
-// 	function initMap() {
-// 		var element = document.getElementById('map');
-// 		var options = {
-// 			zoom: 17,
-// 			center: {lat:37.79119431231414, lng: 122.4151033}
-// 		};
-
-// 		var myMap = new google.maps.Map(element, options);
-// 	}37.7910917,-122.4172697,17
-	
-// });
-
 ymaps.ready(init);
     function init(){ 
         // Создание карты.    

@@ -10,3 +10,38 @@
 .locations_map_pin_img {
 	display: none;
 }
+.locations_map_footer {
+	background-color: #E65635;
+	/*height: 126px;*/
+	padding: 28px 38px 30px 50px;
+	box-sizing: border-box; 
+	border-radius: 0 0 5px 5px;
+	display: flex;
+	color: white;
+}
+.locations_map_footer_caption {
+	font-size: 56px;
+	font-family: 'Conv_Lato-Light';
+	letter-spacing: 0px;
+    word-spacing: -6px;
+}
+.locations_map_footer_adress {
+	margin-left: 45px;
+	margin-top: 7px;
+	letter-spacing: 2px;
+    word-spacing: 0px;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+	width: 310px;
+}
+.locations_map_footer_navigations img {
+	width: 52px;
+	height: 52px;
+	margin-left: 29px;
+	cursor: pointer;
+}
+.locations_map_footer_navigations {
+	margin-top: 7px;
+	margin-left: auto;
+}
