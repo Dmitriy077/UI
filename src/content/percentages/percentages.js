@@ -19,7 +19,7 @@ var barChart = {
         datasets: [{
             label: 'Population',
             data: [11, 26, 30, 33],
-            backgroundColor: [ '#737373', '#E65635', '#4DB6A7', 'white'],
+            backgroundColor: [ '#737373', '#E65635', '#4DB6A7', '#E4E4E4'],
             borderWidth: 0
         }]
     },

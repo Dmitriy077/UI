@@ -29,6 +29,7 @@
     word-spacing: 0px;
 	font-family: 'Conv_Lato-Light';
 	line-height: 173px;
+	border-radius: 5px 5px 0 0;
 }
 thead {
 	background-color: #E65635;
@@ -114,6 +115,12 @@ thead {
 	border: 2px solid white;
 	box-sizing: border-box;
 }
+.ui-datepicker td:first-child {
+	border-left: 0px solid green;
+}
+.ui-datepicker td:last-child {
+	border-right: 0px solid green;
+}
 .ui-datepicker td:hover,
 .ui-datepicker td:hover .ui-state-default,
 .calendar .ui-datepicker-current-day {
@@ -128,4 +135,18 @@ thead {
 .ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary {
     opacity: 1;
     color: white;
+}
+.ui-datepicker table {
+     margin: 0; 
+}
+.today {
+	background-color: #E4E4E4;
+	height: 89px;
+	padding: 34px 37px;
+	box-sizing: border-box;
+	color: #858585;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Conv_Lato-Black';
+	border-radius: 0 0 5px 5px;
 }

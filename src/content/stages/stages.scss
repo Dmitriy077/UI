@@ -20,8 +20,7 @@
 	text-align: center;
 }
 .stages_content_container {
-    padding: 10px 21px;
-    display: inline-block;
+    padding: 6px 31px 6px 21px;
 }
 
 /*Ширина полосы*/
@@ -37,9 +36,9 @@
     position: absolute;
     margin-left: -21px;
     text-align: center;
-    width: 42px;
-    height: 42px;
-    font-size: 20px;
+    width: 52px;
+    height: 52px;
+    font-size: 26px;
     padding-top: 7px;
     cursor: pointer;
     border-radius: 100%;
@@ -47,8 +46,9 @@
     top: -18px;
     background: #E4E4E4;
     z-index: 2;
-    color: #000;    
+    color: #858585;    
     box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2) !important;
+    font-family: 'Conv_Lato-Black';
 }
 
 /*Ползунок:*/
