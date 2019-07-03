@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const pug = require('pug')
+// const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
 	mode: 'production',
@@ -34,7 +35,7 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.(jpg|png|gif)$/,
+				test: /\.(jpg|png|gif|mp4)$/i,
 				use: [
 					{
 						loader: 'file-loader',
@@ -98,6 +99,9 @@ module.exports = {
 	          preset: ['default', { discardComments: { removeAll: true } }],
 	        },
 	        canPrint: true
-	    })
+	    }),
+	    //  new CopyPlugin([
+	    // 	{ from: `./video`, to: `./video` }
+	    // ])
 	]
 }

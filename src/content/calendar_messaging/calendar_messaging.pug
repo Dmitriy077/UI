@@ -1,9 +1,30 @@
 .calendar_messaging_container
 	.calendar_messaging
 		.calendar_container
-			.calendar_caption
+			.calendar_messaging_caption
 				h1 Calendar
 			.calendar
 				#datep
 					.calendar_date 24
 				.today Today
+		.messaging_container
+			.calendar_messaging_caption
+				h1 Messaging
+			.messaging
+				.messaging_img.user_circle
+					img(src="./img/user_girl.jpg", alt="")
+				.messaging_name Sarah Brown
+				.messaging_green_stripe
+				.messaging_messaging
+					.messaging_icons
+						.messaging_icon_message_container
+							a.messaging_icon_message(href="#")
+						.messaging_icon_photo
+							a(href="#")
+								i.fa.fa-camera
+					form#messaging
+						.messaging_message_field
+							span Hey! So are we cool to meet at the art gallery? Say 8pm
+						textarea.messaging_answer_field
+						.messaging_button.button_style_green.big_button.button
+							span REPLY
