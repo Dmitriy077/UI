@@ -28,6 +28,7 @@ li {
 .row {
 	max-width: 1086px;
 	margin: 0 auto;
+	padding: 0 15px 0 15px;
 }
 i.fa{
 	color: black;
@@ -49,4 +50,56 @@ i.fa{
 
 .margin-top_31 {
 	margin-top: 31px;
+}
+
+
+@media (max-width: 1140px) {
+    h1 {
+    	text-align: center;
+    	margin-left: 0 !important;
+    	padding-left: 0 !important;
+    }
+    .percentages_chart .box_position:last-child {
+    	margin-top: 24px;
+	}
+	.sliders_content .sliders_left, 
+	.sliders_content .sliders_right {
+	    display: block;
+	    width: 475px;
+	    margin: 0 auto;
+	    margin-top: 70px;
+	}
+	.sliders_content .sliders_left{
+		margin-top: 50px;
+	}
+	.sliders_content .sliders_right {
+		margin-top: 100px;
+	}
+	.search-user_container .search-user_right {
+		width: 550px;
+	}
+
+	.locations .locations_caption {
+		margin-left: 0;
+	}
+	.news-events .news-events_right {
+		width: 575px;
+	}
+	.search-user_container .search-user_left,
+	.search-user_container .search-user_right,
+	.news-events .news-events_left,
+	.news-events .news-events_right,
+	.calendar_messaging_container .calendar_container,
+	.calendar_messaging_container .messaging_container{
+		display: block;
+		margin: 0 auto;
+	}
+	.calendar_messaging_container .calendar_messaging {
+		display: block;
+		margin: 0 auto;
+		margin-top: 96px;
+	}
+	.calendar_messaging_container .messaging_container {
+		margin-left: 0;
+	}
 }
