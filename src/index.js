@@ -1,7 +1,6 @@
 
 import "./style.scss"
 import "./fonts/fonts.scss"
-// import "./fonts/font-awesome/js/all.js"
 import "./fonts/font-awesome/scss/fontawesome.scss"
 import "./content/standart_buttons/standart_buttons.scss"
 import "./plugins/ripple/ripple.scss"

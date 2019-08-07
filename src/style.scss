@@ -90,16 +90,59 @@ i.fa{
 	.news-events .news-events_left,
 	.news-events .news-events_right,
 	.calendar_messaging_container .calendar_container,
-	.calendar_messaging_container .messaging_container{
+	.calendar_messaging_container .messaging_container,
+	.form_elements_content .form_elements_content_left,
+	.form_elements_content .form_elements_content_right {
 		display: block;
 		margin: 0 auto;
 	}
+	.calendar_messaging_container .messaging_container,
 	.calendar_messaging_container .calendar_messaging {
 		display: block;
 		margin: 0 auto;
 		margin-top: 96px;
 	}
-	.calendar_messaging_container .messaging_container {
-		margin-left: 0;
+	.form_elements_content .form_elements_content_right {
+		margin-top: 96px;
+	}
+	.form_elements_content .toggles,
+	.form_elements_content .tick_boxes {
+		margin: 0 auto;
+		width: 245px;
+	}	
+}
+@media (max-width: 905px) {
+	.standart_buttons_buttons .button {
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 80px;
+	}
+	.standart_buttons_buttons .standart_buttons_buttons_sectoring:first-child {
+	    margin-left: auto;
+	    margin-top: 0;
+	}
+	.standart_buttons_container .standart_buttons_buttons {
+		height: 274px;
+	}
+	.standart_buttons_container .standart_buttons_caption {
+		height: 240px;
+	}
+	.percentages_chart .box_position:nth-child(4) {
+		margin-top: 34px;
+	}
+}
+@media (max-width: 670px) {
+	.percentages_chart .box {
+		width: 173px;
+	}
+	.arrow_buttons_buttons div,
+	.percentages_chart .box {
+		display: block;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.percentages_chart .box_position:nth-child(1) {
+	    margin-left: auto;
 	}
 }
